@@ -1,0 +1,93 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #f4f1ea;
+    color: #333333;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+/* Main headings */
+h1 {
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    color: #344e41;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1.75rem;
+    color: #52796f;
+    margin-top: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+/* Page sections: box model */
+header,
+main,
+footer {
+    max-width: 60rem;
+    margin: 0 auto 1.5rem auto;
+    padding: 1.25rem;
+    border: 1px solid #d8d2c6;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+}
+
+/* Bio and photo: Flexbox */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-photo {
+    width: 12rem;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #d8d2c6;
+    border-radius: 0.5rem;
+}
+
+/* Project images */
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 600px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    header,
+    main,
+    footer {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about-photo {
+        width: 100%;
+        max-width: 20rem;
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+    <project>
+        <title>Mending Clothes</title>
+        <description>Learning basic hand stitches to repair clothes and make them last longer.</description>
+        <date>2026-11-04</date>
+    </project>
+    <project>
+        <title>My Profile Website</title>
+        <description>Creating a personal website using basic HTML to introduce myself and share my interests.</description>
+        <date>2026-11-19</date>
+    </project>
+    <project>
+        <title>Creative Photography</title>
+        <description>Collecting and organizing photos to tell a story about my creative interests and experiences.</description>
+        <date>2026-11-19</date>
+    </project>
+</projects>
